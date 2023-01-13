@@ -41,58 +41,69 @@ nav {
     margin-right: auto;
     margin-top: 35px;
     margin-bottom: 25px;
-    
+
 }
-.top-player>h3{
+
+.top-player>h3 {
     color: #562EFF;
     font-weight: 500;
-font-size: 24px;
+    font-size: 24px;
 }
-.players{
+
+.players {
     display: flex;
     align-items: center;
-    gap: 15px ;
+    gap: 15px;
 }
+
 .players>img {
     width: 56px;
     height: 56px;
 }
-.container{
+
+.container {
     padding: 30px 0 30px 0;
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 30px;
     column-gap: 45px;
-    
+
 }
-.top-section{
+
+.top-section {
     padding: 30px;
 }
-.top-blog>h3{
+
+.top-blog>h3 {
     color: #562EFF;
     font-weight: 500;
-font-size: 24px;
-padding: 30px 0 30px 0;
+    font-size: 24px;
+    padding: 30px 0 30px 0;
 }
-.box img{
+
+.box img {
     width: 177px;
-height: 117px;
+    height: 117px;
 }
-.box p{
+
+.box p {
     color: #9F9F9F;
 }
-.box a{
+
+.box a {
     color: #562EFF;
     text-decoration: none;
 }
-.box{
+
+.box {
     display: flex;
-    gap: 15px ;
+    gap: 15px;
 }
-.blogs{
+
+.blogs {
     display: grid;
-column-gap: 45px;
-row-gap: 30px;
+    column-gap: 45px;
+    row-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -103,6 +114,14 @@ row-gap: 30px;
     background-color: #fff;
     border-radius: 15px;
     margin: auto;
-   
-    
+    padding: 30px;
+}
+
+.course img {
+    width: 224px;
+    height: 104px;
+}
+.courses{
+    display: flex;
+    justify-content: space-between;
 }
